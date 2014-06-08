@@ -1,14 +1,13 @@
 language: cpp
 compiler:
   - gcc
-  - clang
 install:
   - ./autogen.sh
   - mkdir build
   - cd build
   - ../configure
   - make
-  - make install
+  - sudo make install
 notifications:
   email:
     on_success: change
