@@ -9,15 +9,14 @@ http://code.google.com/p/libkml/w/list
 Special thanks to gumdal for importing libkml to git.
 
 Steps to build
-```
-git clone https://github.com/kubark42/libkml.git
-cd libkml
-./autogen.sh
-mkdir build
-cd build
-../configure
-make
-sudo make install
-```
+
+    git clone https://github.com/kubark42/libkml.git
+    cd libkml
+    ./autogen.sh
+    mkdir build
+    cd build
+    ../configure
+    make
+    sudo make install
 
 If there are any problems, please start an issue. 
