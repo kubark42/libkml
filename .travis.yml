@@ -8,6 +8,8 @@ install:
   - ../configure
   - make
   - sudo make install
+script:
+  - make test
 notifications:
   email:
     on_success: change
