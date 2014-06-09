@@ -1,15 +1,13 @@
 language: cpp
 compiler:
   - gcc
-install:
+script:
   - ./autogen.sh
   - mkdir build
   - cd build
   - ../configure
   - make
   - sudo make install
-script:
-  - make test
 notifications:
   email:
     on_success: change
