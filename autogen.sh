@@ -15,7 +15,6 @@ else
 	LIBTOOLIZE=libtoolize
 fi
 export LIBTOOLIZE=$LIBTOOLIZE
-export LDFLAGS="-Qunused-arguments"
 
 autoreconf --force --install
 

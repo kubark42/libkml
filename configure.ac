@@ -21,6 +21,8 @@ AC_FUNC_STRTOD
 AC_HEADER_STDBOOL
 AC_TYPE_SIZE_T
 
+LDFLAGS="$LDFLAGS -Qunused-arguments"
+
 dnl Let Makefile know if we are GCC.
 AM_CONDITIONAL(GCC, test "$GCC" = yes)
 
