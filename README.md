@@ -1,5 +1,7 @@
 This is a clone of libkml (http://libkml.googlecode.com/). 
 
+[![Build Status](https://travis-ci.org/kubark42/libkml.svg?branch=master)](https://travis-ci.org/kubark42/libkml)
+
 * It fixes several Linux compilation issues
 * Adds support for the Style tag embedded in Placemark.
 

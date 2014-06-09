@@ -1,0 +1,18 @@
+language: cpp
+compiler:
+  - gcc
+  - clang
+script:
+  - ./autogen.sh
+  - mkdir build
+  - cd build
+  - ../configure
+  - make
+  - sudo make install
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+os:
+  - linux
+  - osx
