@@ -1,6 +1,7 @@
 language: cpp
 compiler:
   - gcc
+  - clang
 script:
   - ./autogen.sh
   - mkdir build
