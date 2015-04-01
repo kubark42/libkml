@@ -31,6 +31,11 @@
 #endif
 #endif
 
+#ifdef _Z_OF
+#undef OF
+#define OF _Z_OF
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
